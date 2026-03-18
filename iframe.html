@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h3>srcdoc로 HTML문서 안에 iframe 직접편집</h3>
+<iframe src="iframe1.html" 
+    width="200" 
+    height="100"
+    srcdoc="
+    <html>
+    <head></head>
+    <body>
+    안녕하세요? <br>iframe입니다
+    </body>
+    </html>
+    "
+    > 
+</body>
+</html>
